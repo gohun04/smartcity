@@ -45,8 +45,7 @@
 		
 		}
 		
-		hieAll();
-		
+		$(document).ready(hieAll);
 		$(".GCLM1").show();
 		$(".GCVideo1").show();
 		
