@@ -1,0 +1,194 @@
+/* Game Course Customization  */
+/* DO NOT TOUCH */
+.course-11
+{
+background-image:url(@img:Depositphotos_4887854_l-2015Alpha.png);
+ color:white;
+background-size: 100% auto;
+}
+
+/*.course-11 .activityicon,*/ .course-11 .autocompletion{
+       display:none;
+}
+
+.course-11 .content
+{
+  background-color:rgba(255, 255, 255, 0.89);
+}
+
+.course-11 .activity
+{
+ background-color:grey;
+}
+
+.course-11 .contentwithoutlink , .course-11 .section .activity .contentwithoutlink, .section .activity .activityinstance
+{
+  padding-right:0px;
+}
+
+.course-11 .section .activity .availabilityinfo, .section .activity .contentafterlink
+{
+    position: absolute;
+    top: 0px;
+    left: 65px;
+}
+
+.course-11 .contentafterlink
+{
+ margin:0px;
+}
+
+.GCBox
+{
+	background-color:black;
+	min-height:250px;
+	width:100%;
+	 border: 1px solid black;
+}
+
+.GCdescription
+{
+  color:black;
+}
+
+
+.GCBody
+{
+   color:black;
+}
+
+.GCHeading
+{
+   background-color:black;
+   color:white;
+  min-height:100px;
+overflow:auto;
+}
+
+.GCHeadingText
+{
+  float:left;
+ padding-left:2%;
+}
+
+.GCHeadingImage
+{
+ float:right;
+width:50%;
+}
+
+.GCGreyBar
+{
+  min-height:50px;
+ background-color:rgb(227,228,230);
+}
+
+.GCNeedToDo
+{
+   background-color:rgba(211,211,211,0.8);
+  padding:2%;
+}
+
+.GCNeedToDoBG
+{
+ background-image:url(@img:Depositphotos_4887854_l-2015.png);
+}
+
+.GCTitleText
+{
+  margin:0px;
+}
+
+.GCLearningMaterial
+{
+background-color:rgb(156,156,156);
+padding:2%;
+overflow:auto;
+}
+
+.GCResources
+{
+  padding:2%;
+overflow:auto;
+}
+
+.GCFinalInformation
+{
+  background-color:rgb(216,216,216);
+  padding:2%;
+}
+
+.course-11 .mediaplugin_html5audio, .mediaplugin_html5video, .mediaplugin_swf, .mediaplugin_flv, .mediaplugin_real, .mediaplugin_youtube, .mediaplugin_vimeo, .mediaplugin_wmp, .mediaplugin_qt
+{
+  text-align:left;
+}
+
+.course-11 .activityinstance
+{
+  margin-left:50px;
+  margin-top:1px;
+}
+
+
+
+
+ .pagelayout-admin
+{
+  background-image:none;
+color:black;
+}
+
+.GCLearningBody
+{
+ margin:2%;
+}
+
+.GCLinks
+{
+    float:left;
+ 
+}
+
+.CGButVid
+{
+    -webkit-border-radius: 49;
+  -moz-border-radius: 49;
+  border-radius: 49px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #224054;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.GCNav
+{
+   font-weight:bold;
+color:#FFFFFF;
+background-color:black;
+text-align:center;
+padding:2px;
+text-decoration:none;
+text-transform:uppercase;
+margin-left:75%;
+}
+
+.GCBack
+{
+  width:100%;
+}
+
+
+.GCIcon
+{
+ float:left;
+margin-right:10px;
+}
+
+.course-11 h2:nth-child(2)
+{
+ display:none;
+}
+
+/* End of Game Course CSS */

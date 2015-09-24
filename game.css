@@ -1,0 +1,66 @@
+
+body{
+	margin: auto;	
+}
+
+.GameWeeks
+{
+   background-image:url("Depositphotos_4887854_l-2015.jpg");
+   width: 100%;
+   height: 100%;
+   border: none;
+   margin:auto;
+  
+}
+
+.GWBar
+{
+	min-height:5%;
+	background-color:gray;
+}
+
+.GWBody
+{
+	min-height: 200px;
+}
+
+.GWHead
+{
+	background-image:url("Banner.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	min-height:100px;
+}
+
+p {
+	color:white;
+}
+
+
+.GCparent
+{
+	background-color:rgba(0,0,0,0.8);
+	min-height:100px;
+	height:100%;
+	
+}
+
+.GCBox
+{
+	background-color:black;
+	min-height:250px;
+	width:100%;
+	
+}
+
+.GWText {
+
+	color:white;
+}
+
+.GWMainContent
+{
+	background-image:url("Body.png");
+	position:relative;
+	min-height:300px;
+}
