@@ -1,7 +1,4 @@
-
-   $(document).ready(function(){
-      
-		function hieAll()
+function hieAll()
 		{
 			$(".GCVideo1").hide();
 			$(".GCVideo2").hide();
@@ -45,7 +42,9 @@
 		
 		}
 		
-		$(document).ready(hieAll);
+   $(document).ready(function(hieAll){
+      
+		
 		$(".GCLM1").show();
 		$(".GCVideo1").show();
 		
