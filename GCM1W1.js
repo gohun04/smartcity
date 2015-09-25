@@ -1,49 +1,50 @@
-function hieAll()
+
+		
+   $(document).ready(function(){
+      
+	  function hieAll()
 		{
-			$(".GCVideo1").hide();
-			$(".GCVideo2").hide();
-			$(".GCVideo3").hide();
-			$(".GCVideo4").hide();
-			$(".GCVideo5").hide();
-			$(".GCVideo6").hide();
-			$(".GCVideo7").hide();
-			$(".GCVideo8").hide();
-			$(".GCVideo9").hide();
-			$(".GCVideo10").hide();
-			$(".GCVideo11").hide();
-			$(".GCVideo12").hide();
-			$(".GCVideo13").hide();
-			$(".GCVideo14").hide();
-			$(".GCVideo15").hide();
-			$(".GCVideo16").hide();
-			$(".GCVideo17").hide();
-			$(".GCVideo18").hide();
-			$(".GCVideo19").hide();
-			$(".GCVideo20").hide();
-			$(".GCVideo21").hide();
-			$(".GCVideo22").hide();
-			$(".GCVideo23").hide();
-			$(".GCVideo24").hide();
-			$(".GCVideo25").hide();
-			$(".GCVideo26").hide();
-			$(".GCVideo27").hide();
-			$(".GCVideo28").hide();
-			$(".GCVideo29").hide();
-			$(".GCVideo30").hide();
+			$(".GCVideo1").hide()
+			$(".GCVideo2").hide()
+			$(".GCVideo3").hide()
+			$(".GCVideo4").hide()
+			$(".GCVideo5").hide()
+			$(".GCVideo6").hide()
+			$(".GCVideo7").hide()
+			$(".GCVideo8").hide()
+			$(".GCVideo9").hide()
+			$(".GCVideo10").hide()
+			$(".GCVideo11").hide()
+			$(".GCVideo12").hide()
+			$(".GCVideo13").hide()
+			$(".GCVideo14").hide()
+			$(".GCVideo15").hide()
+			$(".GCVideo16").hide()
+			$(".GCVideo17").hide()
+			$(".GCVideo18").hide()
+			$(".GCVideo19").hide()
+			$(".GCVideo20").hide()
+			$(".GCVideo21").hide()
+			$(".GCVideo22").hide()
+			$(".GCVideo23").hide()
+			$(".GCVideo24").hide()
+			$(".GCVideo25").hide()
+			$(".GCVideo26").hide()
+			$(".GCVideo27").hide()
+			$(".GCVideo28").hide()
+			$(".GCVideo29").hide()
+			$(".GCVideo30").hide()
 			
 			
-			$(".GCLM1").hide();
-			$(".GCLM2").hide();
-			$(".GCLM3").hide();
-			$(".GCLM4").hide();
-			$(".GCLM5").hide();
-			$(".GCLM6").hide();
-			$(".GCLM7").hide();
+			$(".GCLM1").hide()
+			$(".GCLM2").hide()
+			$(".GCLM3").hide()
+			$(".GCLM4").hide()
+			$(".GCLM5").hide()
+			$(".GCLM6").hide()
+			$(".GCLM7").hide()
 		
 		}
-		
-   $(document).ready(function(hieAll){
-      
 		
 		$(".GCLM1").show();
 		$(".GCVideo1").show();
