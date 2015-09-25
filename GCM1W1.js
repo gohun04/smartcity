@@ -53,7 +53,7 @@
 		
     // Tabs
 	  $("#GCTab1").click(function(){
-        $(document).ready(hieAll);
+        hieAll();
 		$(".GCLM1").show();
 		$(".GCVideo1").show();
          
