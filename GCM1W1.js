@@ -47,6 +47,27 @@
 			$(".GCLM12").hide();
 			$(".GCLM13").hide();
 		
+			$("#GCTab1").removeClass('CGButactive');
+			$("#GCTab2").removeClass('CGButactive');
+			$("#GCTab3").removeClass('CGButactive');
+			$("#GCTab4").removeClass('CGButactive');
+			$("#GCTab5").removeClass('CGButactive');
+			$("#GCTab6").removeClass('CGButactive');
+			$("#GCTab7").removeClass('CGButactive');
+			$("#GCTab8").removeClass('CGButactive');
+			$("#GCTab9").removeClass('CGButactive');
+			$("#GCTab10").removeClass('CGButactive');
+			$("#GCTab11").removeClass('CGButactive');
+			$("#GCTab12").removeClass('CGButactive');
+			$("#GCTab13").removeClass('CGButactive');
+			$("#GCTab14").removeClass('CGButactive');
+			$("#GCTab15").removeClass('CGButactive');
+			$("#GCTab16").removeClass('CGButactive');
+			$("#GCTab17").removeClass('CGButactive');
+			$("#GCTab18").removeClass('CGButactive');
+			$("#GCTab19").removeClass('CGButactive');
+			$("#GCTab20").removeClass('CGButactive');
+		
 		}	
 
 	$(document).ready(hieAll);
@@ -55,69 +76,75 @@
       
 		
 		$(".GCLM1").show();
+		$("#GCTab1").addClass('CGButactive');
 		
     // Tabs
 	  $("#GCTab1").click(function(){
         hieAll();
 		$(".GCLM1").show();
 		$(this).addClass('CGButactive');
-		$("#GCTab2").removeClass('CGButactive');
     });
 	
 	 $("#GCTab2").click(function(){
        hieAll();
 		$(".GCLM2").show();
 		$(this).addClass('CGButactive');
-		$("#GCTab1").removeClass('CGButactive');
     });
        
 
 	$("#GCTab3").click(function(){
        hieAll();
 		$(".GCLM3").show();
-		
+		$(this).addClass('CGButactive');
     });
 	
 	$("#GCTab4").click(function(){
        hieAll();
 		$(".GCLM4").show();
-		
+		$(this).addClass('CGButactive');
     });
 	
 	$("#GCTab5").click(function(){
        hieAll();
 		$(".GCLM5").show();
+		$(this).addClass('CGButactive');
     });
 	
 	$("#GCTab6").click(function(){
        hieAll();
 		$(".GCLM6").show();
+		$(this).addClass('CGButactive');
     });
 	
 	$("#GCTab7").click(function(){
 		hieAll();
 		$(".GCLM7").show();
+		$(this).addClass('CGButactive');
     });
 
 
 	$("#GCTab8").click(function(){
 		hieAll();
 		$(".GCLM8").show();
+		$(this).addClass('CGButactive');
     });
 
 	$("#GCTab9").click(function(){
 		hieAll();
 		$(".GCLM9").show();
+		$(this).addClass('CGButactive');
     });
 
 	$("#GCTab10").click(function(){
 		hieAll();
 		$(".GCLM10").show();
+		$(this).addClass('CGButactive');
     });
 
 	$("#GCTab11").click(function(){
 		hieAll();
 		$(".GCLM11").show();
+		$(this).addClass('CGButactive');
     });
 	
 	
