@@ -60,13 +60,15 @@
 	  $("#GCTab1").click(function(){
         hieAll();
 		$(".GCLM1").show();
-		$(this).addClass('CGButtonTab.active');
+		$(this).addClass('CGButactive');
+		$("#GCTab2").removeClass('CGButactive');
     });
 	
 	 $("#GCTab2").click(function(){
        hieAll();
 		$(".GCLM2").show();
-		$(this).addClass('CGButtonTab.active');
+		$(this).addClass('CGButactive');
+		$("#GCTab1").removeClass('CGButactive');
     });
        
 
