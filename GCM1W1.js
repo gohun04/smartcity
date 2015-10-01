@@ -40,6 +40,12 @@
 			$(".GCLM5").hide();
 			$(".GCLM6").hide();
 			$(".GCLM7").hide();
+			$(".GCLM8").hide();
+			$(".GCLM9").hide();
+			$(".GCLM10").hide();
+			$(".GCLM11").hide();
+			$(".GCLM12").hide();
+			$(".GCLM13").hide();
 		
 		}	
 
@@ -49,29 +55,68 @@
       
 		
 		$(".GCLM1").show();
-		$(".GCVideo1").show();
 		
     // Tabs
 	  $("#GCTab1").click(function(){
         hieAll();
 		$(".GCLM1").show();
-		$(".GCVideo1").show();
-         
     });
 	
 	 $("#GCTab2").click(function(){
        hieAll();
 		$(".GCLM2").show();
-		$(".GCVideo6").show();
     });
        
 
 	$("#GCTab3").click(function(){
        hieAll();
 		$(".GCLM3").show();
-		$(".GCVideo11").show();
+		
     });
-	   
+	
+	$("#GCTab4").click(function(){
+       hieAll();
+		$(".GCLM4").show();
+		
+    });
+	
+	$("#GCTab5").click(function(){
+       hieAll();
+		$(".GCLM5").show();
+    });
+	
+	$("#GCTab6").click(function(){
+       hieAll();
+		$(".GCLM6").show();
+    });
+	
+	$("#GCTab7").click(function(){
+		hieAll();
+		$(".GCLM7").show();
+    });
+
+
+	$("#GCTab8").click(function(){
+		hieAll();
+		$(".GCLM8").show();
+    });
+
+	$("#GCTab9").click(function(){
+		hieAll();
+		$(".GCLM9").show();
+    });
+
+	$("#GCTab10").click(function(){
+		hieAll();
+		$(".GCLM10").show();
+    });
+
+	$("#GCTab11").click(function(){
+		hieAll();
+		$(".GCLM11").show();
+    });
+	
+	
 	// Video Tabs
     $("#GCVideo1But").click(function(){
         hieAll();
