@@ -78,48 +78,105 @@
 		$(".GCLM1").show();
 		$("#GCTab1").addClass('CGButactive');
 		
+		if(typeof(Storage) !== "undefined") {
+			// Code for localStorage/sessionStorage.
+			if (localStorage.currentTab) {
+				hieAll();
+				$(".GCLM" + localStorage.currentTab).show();
+			}
+			else {
+			// Sorry! No Web Storage support..
+		}	
+		
+		
+		
     // Tabs
 	  $("#GCTab1").click(function(){
         hieAll();
 		$(".GCLM1").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 1;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
+	
 	
 	 $("#GCTab2").click(function(){
        hieAll();
 		$(".GCLM2").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 2;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
        
 
+	   
 	$("#GCTab3").click(function(){
        hieAll();
 		$(".GCLM3").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 3;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
+	
 	
 	$("#GCTab4").click(function(){
        hieAll();
 		$(".GCLM4").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 4;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
 	
 	$("#GCTab5").click(function(){
        hieAll();
 		$(".GCLM5").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 5;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
 	
 	$("#GCTab6").click(function(){
        hieAll();
 		$(".GCLM6").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 6;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
 	
 	$("#GCTab7").click(function(){
 		hieAll();
 		$(".GCLM7").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 7;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
 
 
@@ -127,24 +184,48 @@
 		hieAll();
 		$(".GCLM8").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 8;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
 
 	$("#GCTab9").click(function(){
 		hieAll();
 		$(".GCLM9").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 9;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
 
 	$("#GCTab10").click(function(){
 		hieAll();
 		$(".GCLM10").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 10;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
 
 	$("#GCTab11").click(function(){
 		hieAll();
 		$(".GCLM11").show();
 		$(this).addClass('CGButactive');
+		if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+		localStorage.currentTab = 11;
+	} else {
+    // Sorry! No Web Storage support..
+	}	
     });
 	
 	
