@@ -83,6 +83,7 @@
 			if (localStorage.currentTab) {
 				hieAll();
 				$(".GCLM" + localStorage.currentTab).show();
+				$("#GCTab" + localStorage.currentTab).addClass('CGButactive');
 			}
 			else 
 			{
