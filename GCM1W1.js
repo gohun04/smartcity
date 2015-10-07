@@ -84,9 +84,11 @@
 				hieAll();
 				$(".GCLM" + localStorage.currentTab).show();
 			}
-			else {
+			else 
+			{
 			// Sorry! No Web Storage support..
-		}	
+			}	
+		}
 		
 		
 		
