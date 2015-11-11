@@ -80,24 +80,12 @@
 
 	$(document).ready(hieAll);
 	
-   $(document).ready(function(){
+   $(document).ready(function()
+   	{
       
-		
 		$(".GCLM1").show();
 		$("#GCTab1").addClass('CGButactive');
-		
-	/*	if(typeof(Storage) !== "undefined") {
-			// Code for localStorage/sessionStorage.
-			if (localStorage.currentTab) {
-				hieAll();
-				$(".GCLM" + localStorage.currentTab).show();
-				$("#GCTab" + localStorage.currentTab).addClass('CGButactive');
-			}
-			else 
-			{
-			// Sorry! No Web Storage support..
-			}	*/
-		}
+	}
 		
 		
 		
@@ -128,7 +116,6 @@
 	}	
     });
        
-
 	   
 	$("#GCTab3").click(function(){
        hieAll();
