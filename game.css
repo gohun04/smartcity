@@ -1,48 +1,43 @@
+/* Game Course Customization  */
+/* DO NOT TOUCH */
 
-body{
-	margin: auto;	
-}
-
-.GameWeeks
+.course-11
 {
-   background-image:url("Depositphotos_4887854_l-2015.jpg");
-   width: 100%;
-   height: 100%;
-   border: none;
-   margin:auto;
-  
+background-image:url(@img:Depositphotos_4887854_l-2015Overlayv2.png);
+ color:white;
+background-size: 100% auto;
 }
 
-.GWBar
+/*.course-11 .activityicon,*/ .course-11 .autocompletion{
+       display:none;
+}
+
+.course-11 .content
 {
-	min-height:5%;
-	background-color:gray;
+  background-color:#ffffff;
+
 }
 
-.GWBody
+.course-11 .activity
 {
-	min-height: 200px;
+/* background-color:grey;*/
 }
 
-.GWHead
+.course-11 .contentwithoutlink , .course-11 .section .activity .contentwithoutlink, .section .activity .activityinstance
 {
-	background-image:url("Banner.png");
-	background-repeat:no-repeat;
-	background-size:100%;
-	min-height:100px;
+  padding-right:0px;
 }
 
-p {
-	color:white;
-}
-
-
-.GCparent
+.course-11 .section .activity .availabilityinfo, .section .activity .contentafterlink
 {
-	background-color:rgba(0,0,0,0.8);
-	min-height:100px;
-	height:100%;
-	
+    position: absolute;
+    top: 0px;
+    left: 65px;
+}
+
+.course-11 .contentafterlink
+{
+ margin:0px;
 }
 
 .GCBox
@@ -50,17 +45,304 @@ p {
 	background-color:black;
 	min-height:250px;
 	width:100%;
-	
+	 border: 1px solid black;
 }
 
-.GWText {
-
-	color:white;
-}
-
-.GWMainContent
+.GCdescription
 {
-	background-image:url("Body.png");
-	position:relative;
-	min-height:300px;
+  color:black;
 }
+
+
+.GCBody
+{
+   color:black;
+}
+
+.GCHeading
+{
+   background-color:black;
+   color:white;
+  min-height:100px;
+overflow:auto;
+}
+
+.GCHeadingText
+{
+  float:left;
+ padding-left:2%;
+}
+
+.GCHeadingImage
+{
+ float:right;
+width:50%;
+}
+
+.GCGreyBar
+{
+  min-height:50px;
+ background-color:rgb(227,228,230);
+}
+
+.GCNeedToDo
+{
+  padding:2%;
+}
+
+.GCNeedToDoBG
+{
+background-color:#cceffc;
+}
+
+.GCTitleText
+{
+  margin:0px;
+}
+
+.GCLearningMaterial
+{
+background-color:white;
+padding:2%;
+overflow:auto;
+}
+
+.GCResources
+{
+  padding:2%;
+overflow:auto;
+}
+
+.GCFinalInformation
+{
+  
+  padding:2%;
+}
+
+.course-11 .mediaplugin_html5audio, .mediaplugin_html5video, .mediaplugin_swf, .mediaplugin_flv, .mediaplugin_real, .mediaplugin_youtube, .mediaplugin_vimeo, .mediaplugin_wmp, .mediaplugin_qt
+{
+  text-align:left;
+}
+
+.course-11 .activityinstance
+{
+  margin-left:50px;
+  margin-top:1px;
+}
+
+
+
+
+ .pagelayout-admin
+{
+  background-image:none;
+color:black;
+}
+
+.GCLearningBody
+{
+ margin:2%;
+}
+
+.GCLinks
+{
+    float:left;
+ 
+}
+
+.CGButVid
+{
+    -webkit-border-radius: 49;
+  -moz-border-radius: 49;
+  border-radius: 49px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #224054;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.GCNav
+{
+   font-weight:bold;
+color:#FFFFFF;
+background-color:black;
+text-align:center;
+padding:2px;
+text-decoration:none;
+text-transform:uppercase;
+margin-left:75%;
+}
+
+.GCBack
+{
+  width:100%;
+}
+
+
+.GCIcon
+{
+ float:left;
+margin-right:10px;
+}
+
+.course-11 h2:nth-child(2)
+{
+ display:none;
+}
+
+.CGButactive, .CGButtonTab:active, .CGButtonTab:hover, .CGButtonTab:focus
+{
+ background-color: #389EC3;
+}
+
+
+
+/* New Design */
+.course-11 .activity .subpage 
+{
+ margin:10px;
+}
+
+.GCModule
+{
+  margin:10px;
+ background-color:#cceffc;
+}
+
+#module-925,#module-946, #module-947, #module-949 ,  #module-951, #module-953
+{
+ width:50%;
+  margin:1%;
+}
+
+#module-954, #module-955, #module-956, #module-957, #module-958 , #module-959 
+{
+     width: 46%;
+    position: absolute;
+    top: -339px;
+    left: 51%;
+  margin:1%;
+}
+
+.course-11 .section .img-text 
+{
+ padding:2px;
+}
+
+.course-11 #page-header
+{
+  display:none;
+}
+
+.course-11 .block.courseheader
+{
+  background-color:black;
+margin-bottom:0px;
+border:0px;
+}
+.course-11  .block.courseheader h3
+{
+ font-family:Open Sans-serif;
+color:white;
+margin:35px;
+margin-left:16%;
+margin-right:22%;
+}
+
+.course-11 input, button, select
+{
+background-color:#cceffc;
+margin:6px;
+}
+
+.course-11 #block-region-side-pre
+{
+position:fixed;
+}
+
+.course-11 .section .img-text
+{
+ min-height:630px;
+}
+
+.course-11 #block-region-side-pre
+{
+left:89px;
+top:20%;
+right:72%;
+width:12%;
+}
+
+.course-11 .completionprogress
+{
+color: #00aeef;
+margin:1%;
+margin-right:2%;
+}
+
+.course-11 #region-main
+{
+ left:0%;
+ width:100%;
+}
+
+.course-11 .block_action
+{
+ display:none;
+}
+
+.course-11 .instancename
+{
+  color: black;
+    font-family: Open Sans;
+    font-size: 14pt;
+}
+
+.course-11 .instancename:hover
+{
+  color: #f26522;
+    font-family: Open Sans;
+    font-size: 14pt;
+}
+
+#module-1005
+{
+display:none;
+
+}
+
+#instance-105-header
+{
+  display:block;
+margin-left:31%;
+}
+
+.assignment
+{
+ background-color:white;
+color:black;
+}
+
+.ModuleHead
+{
+  color:#00aeef;
+font-size:28pt;
+font-family: Open Sans;
+}
+
+.weekHeadings
+{
+   color:#00aeef;
+font-size:28pt;
+font-family: Open Sans;
+}
+
+.GCFinalInformation
+{
+background-color:#cceffc;
+color:black;
+}
+
+/* End of Game Course CSS */
