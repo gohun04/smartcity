@@ -74,8 +74,8 @@
 		function changePage(pageNumber)
 		{
 			hieAll();
-			$(".GCLM" + pageNumber).show();
-			$("#GCTab" + pageNumber).addClass('CGButactive');
+			$(".GCLM").show();
+			$("#GCTab").addClass('CGButactive');
 		}
 
 	$(document).ready(hieAll);
