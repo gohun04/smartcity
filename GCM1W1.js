@@ -69,6 +69,14 @@
 			$("#GCTab20").removeClass('CGButactive');
 		
 		}	
+		
+		
+		function changePage(var pageNumber)
+		{
+			hieAll();
+			$(".GCLM" + pageNumber).show();
+			$("#GCTab" + pageNumber).addClass('CGButactive');
+		}
 
 	$(document).ready(hieAll);
 	
@@ -78,7 +86,7 @@
 		$(".GCLM1").show();
 		$("#GCTab1").addClass('CGButactive');
 		
-		if(typeof(Storage) !== "undefined") {
+	/*	if(typeof(Storage) !== "undefined") {
 			// Code for localStorage/sessionStorage.
 			if (localStorage.currentTab) {
 				hieAll();
@@ -88,8 +96,9 @@
 			else 
 			{
 			// Sorry! No Web Storage support..
-			}	
+			}	*/
 		}
+		
 		
 		
 		
