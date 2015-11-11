@@ -1,73 +1,11 @@
 
  function hieAll()
 		{
-			$(".GCVideo1").hide();
-			$(".GCVideo2").hide();
-			$(".GCVideo3").hide();
-			$(".GCVideo4").hide();
-			$(".GCVideo5").hide();
-			$(".GCVideo6").hide();
-			$(".GCVideo7").hide();
-			$(".GCVideo8").hide();
-			$(".GCVideo9").hide();
-			$(".GCVideo10").hide();
-			$(".GCVideo11").hide();
-			$(".GCVideo12").hide();
-			$(".GCVideo13").hide();
-			$(".GCVideo14").hide();
-			$(".GCVideo15").hide();
-			$(".GCVideo16").hide();
-			$(".GCVideo17").hide();
-			$(".GCVideo18").hide();
-			$(".GCVideo19").hide();
-			$(".GCVideo20").hide();
-			$(".GCVideo21").hide();
-			$(".GCVideo22").hide();
-			$(".GCVideo23").hide();
-			$(".GCVideo24").hide();
-			$(".GCVideo25").hide();
-			$(".GCVideo26").hide();
-			$(".GCVideo27").hide();
-			$(".GCVideo28").hide();
-			$(".GCVideo29").hide();
-			$(".GCVideo30").hide();
-			
-			
-			$(".GCLM1").hide();
-			$(".GCLM2").hide();
-			$(".GCLM3").hide();
-			$(".GCLM4").hide();
-			$(".GCLM5").hide();
-			$(".GCLM6").hide();
-			$(".GCLM7").hide();
-			$(".GCLM8").hide();
-			$(".GCLM9").hide();
-			$(".GCLM10").hide();
-			$(".GCLM11").hide();
-			$(".GCLM12").hide();
-			$(".GCLM13").hide();
-		
-			$("#GCTab1").removeClass('CGButactive');
-			$("#GCTab2").removeClass('CGButactive');
-			$("#GCTab3").removeClass('CGButactive');
-			$("#GCTab4").removeClass('CGButactive');
-			$("#GCTab5").removeClass('CGButactive');
-			$("#GCTab6").removeClass('CGButactive');
-			$("#GCTab7").removeClass('CGButactive');
-			$("#GCTab8").removeClass('CGButactive');
-			$("#GCTab9").removeClass('CGButactive');
-			$("#GCTab10").removeClass('CGButactive');
-			$("#GCTab11").removeClass('CGButactive');
-			$("#GCTab12").removeClass('CGButactive');
-			$("#GCTab13").removeClass('CGButactive');
-			$("#GCTab14").removeClass('CGButactive');
-			$("#GCTab15").removeClass('CGButactive');
-			$("#GCTab16").removeClass('CGButactive');
-			$("#GCTab17").removeClass('CGButactive');
-			$("#GCTab18").removeClass('CGButactive');
-			$("#GCTab19").removeClass('CGButactive');
-			$("#GCTab20").removeClass('CGButactive');
-		
+			for (i = 0; i < 50; i++) {
+    				$(".GCVideo" + i).hide();
+				$(".GCLM1" + i).hide();
+				$("#GCTab1" + i).removeClass('CGButactive');
+			}
 		}	
 		
 	function changePage(pageNumber)
