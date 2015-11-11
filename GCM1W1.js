@@ -70,12 +70,19 @@
 		
 		}	
 		
-		function changePage(pageNumber)
-		{
-			hieAll();
-			$(".GCLM" + pageNumber).show();
-			$("#GCTab" + pageNumber).addClass('CGButactive');
-		}	
+	function changePage(pageNumber)
+	{
+		hieAll();
+		$(".GCLM" + pageNumber).show();
+		$("#GCTab" + pageNumber).addClass('CGButactive');
+	}
+		
+	function changPageBut(pageNumber)
+	{
+	      hieAll();
+	      $(".GCLM" + pageNumber).show();	
+	      $("#GCTab" + pageNumber).addClass('CGButactive');
+	}
 	
 
 	$(document).ready(hieAll);
@@ -87,7 +94,7 @@
 	});
 		
 		
-		
+	/*	
 		
     // Tabs
 	  $("#GCTab1").click(function(){
@@ -411,4 +418,4 @@
  $('#Video3C')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');  
     });
 	
-
+*/
