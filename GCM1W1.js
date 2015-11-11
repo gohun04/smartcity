@@ -70,22 +70,21 @@
 		
 		}	
 		
-		
 		function changePage(pageNumber)
 		{
 			hieAll();
-			$(".GCLM").show();
-			$("#GCTab").addClass('CGButactive');
-		}
+			$(".GCLM" + pageNumber).show();
+			$("#GCTab" + pageNumber).addClass('CGButactive');
+		}	
+	
 
 	$(document).ready(hieAll);
 	
-   $(document).ready(function()
+	 $(document).ready(function()
    	{
-      
 		$(".GCLM1").show();
 		$("#GCTab1").addClass('CGButactive');
-	}
+	});
 		
 		
 		
