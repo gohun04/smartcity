@@ -71,7 +71,7 @@
 		}	
 		
 		
-		function changePage(var pageNumber)
+		function changePage(pageNumber)
 		{
 			hieAll();
 			$(".GCLM" + pageNumber).show();
