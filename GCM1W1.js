@@ -3,8 +3,8 @@
 		{
 			for (i = 0; i < 50; i++) {
     				$(".GCVideo" + i).hide();
-				$(".GCLM1" + i).hide();
-				$("#GCTab1" + i).removeClass('CGButactive');
+				$(".GCLM" + i).hide();
+				$("#GCTab" + i).removeClass('CGButactive');
 			}
 		}	
 		
